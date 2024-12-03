@@ -69,6 +69,9 @@ def main():
         """
         Le a chave publica e o numero N {e,n}        
         """
+        if(len(sys.argv) < 2):
+               print('Argumento Inválido: utilize python3 quebra.py e n')
+               exit(1)
         e = int(sys.argv[1])
         n = int(sys.argv[2])
         p,q = prime_factorization(n)

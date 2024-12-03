@@ -11,3 +11,6 @@ Trabalho 2 da materia de Criptografia UFPR
 
 - Enviar um único arquivo zip / tgz / gz - Nome do arquivo deve ser o GRR dos alunos
 
+- Como executar:
+- python3 quebra.py x y
+- onde x é a chave publica e y é o numero primo
